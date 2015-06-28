@@ -1,33 +1,40 @@
 {
-  "name": "react-mini",
+  "name": "react-card",
   "version": "0.1.1",
-  "description": "Minimalistic react components",
+  "description": "A material design card for react",
   "license": "MIT",
-  "repository": "stoeffel/react-mini",
+  "repository": "stoeffel/react-card",
   "author": {
     "name": "Christoph Hermann",
     "email": "schtoeffel@gmail.com",
-    "url": "schtoeffel.ch"
+    "url": "stoeffel.github.com"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register --recursive"
+    "watch": "nodemon -e js --ignore example/bundle.js --exec 'npm run browserify'",
+    "test": "mocha --recursive",
+    "serve": "npm run browserify; serve -p 7777",
+    "browserify": "browserify example/app.js > example/bundle.js"
   },
   "files": [
     "index.js"
   ],
   "keywords": [
     "react",
-    "minimalistic"
+    "material",
+    "design",
+    "card"
   ],
   "dependencies": {},
   "devDependencies": {
-    "babel": "^5.5.8",
+    "browserify": "^10.2.4",
     "jsdom": "^5.4.3",
     "mocha": "^2.2.5",
+    "nodemon": "^1.3.7",
     "react": "^0.13.3",
-    "react-tools": "^0.13.3"
+    "react-tools": "^0.13.3",
+    "serve": "^1.4.0"
   }
 }
