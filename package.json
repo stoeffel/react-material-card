@@ -1,0 +1,33 @@
+{
+  "name": "react-mini",
+  "version": "0.1.1",
+  "description": "Minimalistic react components",
+  "license": "MIT",
+  "repository": "stoeffel/react-mini",
+  "author": {
+    "name": "Christoph Hermann",
+    "email": "schtoeffel@gmail.com",
+    "url": "schtoeffel.ch"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --recursive"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "react",
+    "minimalistic"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "jsdom": "^5.4.3",
+    "mocha": "^2.2.5",
+    "react": "^0.13.3",
+    "react-tools": "^0.13.3"
+  }
+}
