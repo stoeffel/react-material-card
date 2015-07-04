@@ -21,4 +21,23 @@ describe('React-Card', function() {
 
 		assert.ok(h1.getDOMNode().textContent, 'test');
 	});
+
+  it('should react to events', function(done) {
+		var component = React.render(
+			React.createElement(
+				Card, {
+					level: 1,
+					onClick: function(c) {
+						c.setLevel(2);
+					},
+					onLevelChange: function(l) {
+						assert.equal(l, 2);
+						done()
+					}
+				}, React.DOM.button(null, 'test')), document.body);
+
+		var button = TestUtils.findRenderedDOMComponentWithTag(component, 'button');
+
+		React.addons.TestUtils.Simulate.click(button);
+	});
 });
