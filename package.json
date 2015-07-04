@@ -17,7 +17,7 @@
     "test": "mocha --recursive",
     "serve": "npm run browserify; serve -p 7777",
     "browserify": "browserify docs/app.js > docs/bundle.js",
-    "docs": "git subtree push --prefix docs origin gh-pages"
+    "docs": "git push origin `git subtree split --prefix docs master`:gh-pages --force"
   },
   "files": [
     "index.js"
