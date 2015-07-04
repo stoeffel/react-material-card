@@ -77,7 +77,7 @@ module.exports = React.createClass({
 					}
 				}, [
 					d.h2(null, 'Events'),
-					d.p(null, 'React-card supports `onClick`, `onOver`, `onOut`, `onFocus` and `onBlur`.'),
+					d.p(null, 'React-material-card supports `onClick`, `onOver`, `onOut`, `onFocus` and `onBlur`.'),
 
 					d.h3(null, 'onClick / onLevelChange'),
 					d.pre({ style: {display: 'block', marginBottom: 10}},
@@ -158,7 +158,7 @@ module.exports = React.createClass({
 						padding: '20px'
 					}
 				}, [
-					React.DOM.h1(null, 'React-Card'),
+					React.DOM.h1(null, 'React-Material-Card'),
 					React.DOM.p({
 						className: 'lead'
 					}, 'A material design card for react')
@@ -186,7 +186,7 @@ module.exports = React.createClass({
 					}
 				}, [
 					React.DOM.h2(null, 'Levels'),
-					React.DOM.p(null, 'React-card supports 6 levels'),
+					React.DOM.p(null, 'React-material-card supports 6 levels'),
 					React.DOM.pre({ style: {display: 'block', marginBottom: 10}},
 						React.DOM.code(null, '<Card level={0}>...</Card>')),
 					React.DOM.div({ style: { display: 'flex', justifyContent: 'space-around', textAlign: 'center' }}, [
@@ -221,7 +221,7 @@ module.exports = React.createClass({
 					}
 				}, [
 					React.DOM.h2(null, 'Styling'),
-					React.DOM.p(null, 'React-Card provides the some important styling attributes directly as props. Every thing else can be set using style or className'),
+					React.DOM.p(null, 'React-material-card provides the some important styling attributes directly as props. Every thing else can be set using style or className'),
 					React.DOM.pre({ style: {display: 'block', marginBottom: 10}},
 						React.DOM.code(null, '<Card width={50} height={50} borderRadius={20} style={{ fontSize: 20, padding: 12 }} className="fancyCard">...</Card>')),
 						React.createElement(Card, {width:50, height:50, borderRadius:20, style:{ fontSize: 20, padding: 12 }, className:"fancyCard"}, React.DOM.p({ style: { marginTop: 0 }}, '\\o/'))
@@ -249,11 +249,11 @@ module.exports = React.createClass({
 					}
 				}, [
 					React.DOM.h2(null, 'Usage'),
-					React.DOM.p(null, 'You can install React-Card via NPM'),
+					React.DOM.p(null, 'You can install React-Material-Card via NPM'),
 					React.DOM.pre({ style: {display: 'block', marginBottom: 10}},
-						React.DOM.code(null, '$ npm install react-card --save')),
+						React.DOM.code(null, '$ npm install react-material-card --save')),
 					React.DOM.pre({ style: {display: 'block', marginBottom: 10}},
-						React.DOM.code(null, "var Card = require('react-card')"))
+						React.DOM.code(null, "var Card = require('react-material-card')"))
 				])
 			]);
 	}

@@ -52,7 +52,7 @@ module.exports = React.createClass({
 					}
 				}, [
 					d.h2(null, 'Events'),
-					d.p(null, 'React-card supports `onClick`, `onOver`, `onOut`, `onFocus` and `onBlur`.'),
+					d.p(null, 'React-material-card supports `onClick`, `onOver`, `onOut`, `onFocus` and `onBlur`.'),
 
 					d.h3(null, 'onClick / onLevelChange'),
 					d.pre({ style: {display: 'block', marginBottom: 10}},

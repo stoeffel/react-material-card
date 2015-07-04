@@ -26,7 +26,7 @@ module.exports = React.createClass({
 						padding: '20px'
 					}
 				}, [
-					React.DOM.h1(null, 'React-Card'),
+					React.DOM.h1(null, 'React-Material-Card'),
 					React.DOM.p({
 						className: 'lead'
 					}, 'A material design card for react')

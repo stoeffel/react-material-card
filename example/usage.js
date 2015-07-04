@@ -16,11 +16,11 @@ module.exports = React.createClass({
 					}
 				}, [
 					React.DOM.h2(null, 'Usage'),
-					React.DOM.p(null, 'You can install React-Card via NPM'),
+					React.DOM.p(null, 'You can install React-Material-Card via NPM'),
 					React.DOM.pre({ style: {display: 'block', marginBottom: 10}},
-						React.DOM.code(null, '$ npm install react-card --save')),
+						React.DOM.code(null, '$ npm install react-material-card --save')),
 					React.DOM.pre({ style: {display: 'block', marginBottom: 10}},
-						React.DOM.code(null, "var Card = require('react-card')"))
+						React.DOM.code(null, "var Card = require('react-material-card')"))
 				])
 			]);
 	}

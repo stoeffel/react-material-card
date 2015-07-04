@@ -16,7 +16,7 @@ module.exports = React.createClass({
 					}
 				}, [
 					React.DOM.h2(null, 'Levels'),
-					React.DOM.p(null, 'React-card supports 6 levels'),
+					React.DOM.p(null, 'React-material-card supports 6 levels'),
 					React.DOM.pre({ style: {display: 'block', marginBottom: 10}},
 						React.DOM.code(null, '<Card level={0}>...</Card>')),
 					React.DOM.div({ style: { display: 'flex', justifyContent: 'space-around', textAlign: 'center' }}, [

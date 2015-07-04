@@ -1,17 +1,17 @@
-# react-card [![Build Status](https://travis-ci.org/stoeffel/react-card.svg?branch=master)](https://travis-ci.org/stoeffel/react-card)
+# react-material-card [![Build Status](https://travis-ci.org/stoeffel/react-material-card.svg?branch=master)](https://travis-ci.org/stoeffel/react-material-card)
 
 ![card](./card.png)
 
 ## Install
 
 ```
-$ npm install --save react-card
+$ npm install --save react-material-card
 ```
 
 
 ## Usage
 
-Checkout the [docs](http://stoeffel.github.com/react-card)
+Checkout the [docs](http://stoeffel.github.com/react-material-card)
 
 ## License
 

@@ -1,13 +1,13 @@
 {
-  "name": "react-card",
+  "name": "react-material-card",
   "version": "0.0.1",
   "description": "A material design card for react",
   "license": "MIT",
-  "repository": "stoeffel/react-card",
+  "repository": "stoeffel/react-material-card",
   "author": {
     "name": "Christoph Hermann",
     "email": "schtoeffel@gmail.com",
-    "url": "stoeffel.github.com"
+    "url": "stoeffel.github.com/react-material-card"
   },
   "engines": {
     "node": ">=0.10.0"

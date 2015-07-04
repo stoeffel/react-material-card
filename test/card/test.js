@@ -1,7 +1,7 @@
 'use strict';
 var React, ReactAddons, assert, Card, TestUtils;
 
-describe('React-Card', function() {
+describe('React-material-card', function() {
 	before(function() {
     React = require('react');
     ReactAddons = require('react/addons');
