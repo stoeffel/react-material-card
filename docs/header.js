@@ -29,7 +29,11 @@ module.exports = React.createClass({
 					React.DOM.h1(null, 'React-Material-Card'),
 					React.DOM.p({
 						className: 'lead'
-					}, 'A material design card for react')
+					}, 'A material design card for react'),
+					React.DOM.div({
+						dangerouslySetInnerHTML: {
+							__html: '<iframe src="https://ghbtns.com/github-btn.html?user=stoeffel&repo=react-material-card&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>' }
+					})
 				])
 			]);
 	}
