@@ -13,10 +13,11 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "watch": "nodemon -e js --ignore example/bundle.js --exec 'npm run browserify'",
+    "watch": "nodemon -e js --ignore docs/bundle.js --exec 'npm run browserify'",
     "test": "mocha --recursive",
     "serve": "npm run browserify; serve -p 7777",
-    "browserify": "browserify example/app.js > example/bundle.js"
+    "browserify": "browserify docs/app.js > docs/bundle.js",
+    "docs": "git subtree push --prefix docs origin gh-pages"
   },
   "files": [
     "index.js"
